@@ -1,0 +1,4 @@
+*.fastq.gz
+*.zip
+multiqc_data/
+
