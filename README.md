@@ -1,7 +1,7 @@
 # RNA-seq Quality Assessment of CCCP-Treated HeLa Cells
 
 ## Background
-CCCP is a mitochondrial uncoupler that disrupts oxidative phosphorylation and mitochondrial membrane potential. This project performs quality assessment of RNA-seq data generated from CCCP-treated and DMSO-treated HeLa cells.
+CCCP is a mitochondrial uncoupler that disrupts oxidative phosphorylation and mitochondrial membrane potential. This project performs quality assessment of time point based RNA-seq data generated from CCCP-treated and DMSO-treated HeLa cells for 6 hours.
 
 ## Objective
 To evaluate sequencing quality and identify potential technical artifacts prior to downstream RNA-seq analysis.
@@ -48,6 +48,7 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/076/SRR34737876/SRR34737876_2.fas
 - Data suitable for downstream preprocessing
 
 ## Future Work
+- Assessing the quality of FASTQC and MULTIQC reports of 12h CCCP-treated vs 12h DMSO-treated conditions in HeLa cells.
 - Read trimming
 - Alignment
 - Differential expression analysis using DESeq2
