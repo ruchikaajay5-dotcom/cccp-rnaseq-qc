@@ -13,6 +13,18 @@ To evaluate sequencing quality and identify potential technical artifacts prior 
 - Platform: Illumina NovaSeq 6000
 - Layout: Paired-end RNA-seq
 
+## Data Download
+
+Raw FASTQ files were downloaded from the SRA database using:
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/073/SRR34737873/SRR34737873_1.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/073/SRR34737873/SRR34737873_2.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/076/SRR34737876/SRR34737876_1.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/076/SRR34737876/SRR34737876_2.fastq.gz
+
 ## Workflow
 1. Download FASTQ files
 2. Perform FASTQC analysis
