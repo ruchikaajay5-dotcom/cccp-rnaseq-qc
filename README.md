@@ -25,6 +25,10 @@ To evaluate sequencing quality and identify potential technical artifacts prior 
 - MultiQC
 - Bash scripting
 
+## Software Versions
+- FastQC v0.12.1
+- MultiQC v1.18
+
 ## Key Findings
 - High per-base sequencing quality observed
 - Minimal adapter contamination detected
