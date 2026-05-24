@@ -54,11 +54,11 @@ wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/067/SRR34737867/SRR34737867_2.fas
 - MultiQC v1.18
 
 ## Key Findings
-- Per-base sequence quality remained consistently high across all samples (majority of bases above Q30), indicating reliable sequencing output.
-- No significant adapter contamination detected in FastQC reports, suggesting proper library preparation and sequencing cleanup.
-- Elevated duplication levels were observed, which may reflect either high transcript abundance (biological signal) or PCR amplification bias.
-- GC content distribution and sequence composition were consistent.
-- Overall data quality is sufficient for downstream trimming and alignment
+- Most of the reads showed good quality scores (mostly above Q30), so overall the sequencing data looks reliable.
+- I did not see any major adapter contamination in the FastQC reports, which suggests the libraries were prepared and cleaned properly.
+- There is some duplication in the reads, which could be due to PCR amplification during library prep.
+- GC content and overall sequence composition look normal for human RNA-seq data.
+- Overall, the data seems good enough to move forward with trimming and alignment. 
 
 ## Future Work
 - Read trimming
