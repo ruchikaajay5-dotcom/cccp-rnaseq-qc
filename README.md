@@ -17,13 +17,25 @@ To evaluate sequencing quality prior to downstream RNA-seq analysis.
 
 Raw FASTQ files were downloaded from the SRA database using:
 
+# 6h-cccp
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/073/SRR34737873/SRR34737873_1.fastq.gz
 
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/073/SRR34737873/SRR34737873_2.fastq.gz
 
+# 6h-DMSO
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/076/SRR34737876/SRR34737876_1.fastq.gz
 
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/076/SRR34737876/SRR34737876_2.fastq.gz
+
+# 12h-DMSO
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/070/SRR34737870/SRR34737870_1.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/070/SRR34737870/SRR34737870_2.fastq.gz
+
+# 12h-cccp
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/067/SRR34737867/SRR34737867_1.fastq.gz
+
+wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR347/067/SRR34737867/SRR34737867_2.fastq.gz
 
 ## Workflow
 1. Download FASTQ files
